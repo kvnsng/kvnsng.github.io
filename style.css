@@ -23,41 +23,31 @@ body {
   line-height: 1.6;
 }
 
-/* Top nav */
-header {
-  position: sticky;
-  top: 0;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #f0f0f0;
-  z-index: 10;
-}
-
-.topnav {
+main {
   max-width: 640px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 80px 24px 60px;
+}
+
+/* Inline nav */
+.topnav {
   display: flex;
-  gap: 24px;
-  height: 44px;
-  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
 }
 
 .topnav a {
-  font-size: 0.85rem;
-  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
   text-decoration: none;
   transition: color 0.15s;
 }
 
 .topnav a:hover {
-  color: var(--text);
-}
-
-main {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 80px 24px 60px;
+  color: var(--muted);
 }
 
 /* Hero */
