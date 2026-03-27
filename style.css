@@ -56,23 +56,80 @@ main {
   max-width: 560px;
 }
 
-/* Projects */
-.projects {
+/* Section headings */
+.projects,
+.publications {
   margin-bottom: 64px;
 }
 
-.projects h2 {
+.projects h2,
+.publications h2 {
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
-.coming-soon {
-  color: var(--muted);
+/* Publication subcategory */
+.pub-category {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
+  margin-bottom: 12px;
+  margin-top: 28px;
+}
+
+.pub-category:first-of-type {
+  margin-top: 0;
+}
+
+/* Item list (projects + publications) */
+.item-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-list li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.item-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.item-title {
+  display: inline;
+  font-weight: 600;
   font-size: 0.95rem;
+  margin-right: 8px;
+}
+
+.item-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  background: #f4f4f4;
+  border-radius: 3px;
+  padding: 2px 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+.item-list p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 4px;
 }
 
 /* Footer */

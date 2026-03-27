@@ -15,15 +15,80 @@
 
     <section class="about">
       <p>
-        I work on machine learning systems at AWS. Before that, I completed a PhD in
-        biophysics at the University of Chicago, engineered computer vision systems
-        for the Atlanta Braves, and built sports ML projects with the NFL and NBA.
+        I work on machine learning systems at AWS, where I've led sports analytics
+        initiatives with the NFL and NBA and delivered $20M+ enterprise ML projects.
+        Before AWS, I was a computer vision engineer for the Atlanta Braves and hold
+        a PhD in biophysics from the University of Chicago.
       </p>
     </section>
 
     <section class="projects">
       <h2>Projects</h2>
-      <p class="coming-soon">Coming soon.</p>
+      <ul class="item-list">
+        <li>
+          <span class="item-title">NFL Helmet Impact Detection</span>
+          <span class="item-tag">Computer Vision</span>
+          <p>Computer vision pipeline that detects helmet collisions in video and assigns each impact to individual players — producing the first comprehensive dataset of NFL helmet impacts.</p>
+        </li>
+        <li>
+          <span class="item-title">NFL Coverage Assignment Models</span>
+          <span class="item-tag">Sports ML</span>
+          <p>Three factorized attention-based transformer models classifying individual coverage assignments, defender-receiver matchups, and target defenders from multi-agent trajectory data. Used in NFL broadcast.</p>
+        </li>
+        <li>
+          <span class="item-title">NBA Play Segmentation</span>
+          <span class="item-tag">Sports ML</span>
+          <p>Temporal DETR-based transformer model for detecting play boundaries from player tracking and game event data.</p>
+        </li>
+        <li>
+          <span class="item-title">NBA Defensive Pressure & Gravity</span>
+          <span class="item-tag">Sports ML</span>
+          <p>Factorized attention-based transformer models computing expected and actual defensive pressure scores, used to quantify player gravity in NBA broadcasts.</p>
+        </li>
+        <li>
+          <span class="item-title">ADP Assist Intent Orchestration</span>
+          <span class="item-tag">Generative AI</span>
+          <p>GenAI-based synthetic utterance generation pipeline with embedding semantic similarity retrieval, achieving 95%+ routing accuracy for multi-agent orchestration.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="publications">
+      <h2>Publications</h2>
+
+      <h3 class="pub-category">Peer-Reviewed</h3>
+      <ul class="item-list">
+        <li>
+          <p><strong>Song, K. C.</strong> (2026). MaddenGPT: Diffusion-based Play Generator. <em>In preparation.</em></p>
+        </li>
+        <li>
+          <p><strong>Song, K. C.</strong>, Diewald, E., Boomhower C., et al. (2025). Decoding defensive coverage responsibilities in football using factorized attention-based transformer models. <em>In preparation.</em></p>
+        </li>
+        <li>
+          <p><strong>Song, K. C.</strong>, Molina, A. V., Chen, R., et al. (2021). Folding and misfolding of potassium channel monomers during assembly and tetramerization. <em>PNAS</em>, 118(34), e2103674118.</p>
+        </li>
+        <li>
+          <p>Wu, E. L., Cheng, X., Jo, S., …, <strong>Song, K. C.</strong>, et al. (2014). CHARMM-GUI membrane builder toward realistic biological membrane simulations.</p>
+        </li>
+        <li>
+          <p>Wu, E. L., Qi, Y., <strong>Song, K. C.</strong>, et al. (2014). Preferred orientations of phosphoinositides in bilayers and their implications in protein recognition mechanisms. <em>J. Phys. Chem. B</em>, 118(16), 4315–4325.</p>
+        </li>
+        <li>
+          <p>Jo, S., <strong>Song, K. C.</strong>, Desaire, H., et al. (2011). Glycan Reader: automated sugar identification and simulation preparation. <em>J. Computational Chemistry</em>, 32(14), 3135–3141.</p>
+        </li>
+        <li>
+          <p><strong>Song, K. C.</strong>, Livanec, P. W., Klauda, J. B., et al. (2011). Orientation of fluorescent lipid analogue BODIPY-PC to probe lipid membrane properties. <em>J. Phys. Chem. B</em>, 115(19), 6157–6165.</p>
+        </li>
+      </ul>
+
+      <h3 class="pub-category">AWS Blog Posts</h3>
+      <ul class="item-list">
+        <li><p>Improving NFL player health using machine learning with AWS Batch (2023)</p></li>
+        <li><p>Analyze and visualize multi-camera events using Amazon SageMaker Studio Lab (2023)</p></li>
+        <li><p>Deploying and benchmarking YOLOv8 on GPU-based edge devices using AWS IoT Greengrass (2023)</p></li>
+        <li><p>Hosting YOLOv8 PyTorch models on Amazon SageMaker Endpoints (2023)</p></li>
+        <li><p>Scale YOLOv5 inference with Amazon SageMaker endpoints and AWS Lambda (2022)</p></li>
+      </ul>
     </section>
 
     <footer>
