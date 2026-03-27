@@ -57,12 +57,10 @@ main {
 }
 
 /* Section headings */
-.projects,
 .publications {
   margin-bottom: 64px;
 }
 
-.projects h2,
 .publications h2 {
   font-size: 0.75rem;
   font-weight: 600;
